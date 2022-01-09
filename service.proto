@@ -28,4 +28,5 @@ message DeviceData {
   optional float temperature_in_c = 3;
   optional float humidity = 4;
   optional float battery = 5;
+  optional uint64 last_update_timestamp = 6;
 }
